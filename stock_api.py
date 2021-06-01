@@ -1,6 +1,6 @@
 # c2qi8uiad3ickc1lnvu0 - the API Key for Apple stock from finnhub.io - found it just by googling, looks legit
 import requests
-import database
+import db
 from class_example import Person
 
 user_name_value = "69696969"
