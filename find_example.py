@@ -7,3 +7,12 @@ collection = db['test-collection']
 
 x = collection.find_one()
 print(x)
+
+
+'''
+# print all
+
+for x in collection.find():
+  print(x)
+
+'''
