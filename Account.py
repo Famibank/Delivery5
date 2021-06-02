@@ -20,7 +20,7 @@ class Account:
         user = {"CPR": cpr,
                 "password": password_db,
                 "full_name": full_name,
-                "bank_account_number": bank_account_number} # can add more things like email, gender. phone nr, remember to dd variables asking for them
+                "bank_account_number": bank_account_number} # can add more things like balance, email, gender. phone nr, remember to dd variables asking for them
         collection.insert_one(user)
 
     def login(self):
