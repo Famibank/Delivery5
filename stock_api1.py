@@ -11,7 +11,7 @@ while is_logged_in == False:
 
             is_logged_in = True
             while is_logged_in == True:
-                a = input('Would you like to see the stock price of a particular company?\nPress 1 to see.\nPress 2 to stop app.\n')
+                a = input('Would you like to see the stock price of a particular company (through the Yahoo Finanace API connection)?\nPress 1 to see.\nPress 2 to stop app.\n')
 
                 if a == "1":
                     show_graph()
