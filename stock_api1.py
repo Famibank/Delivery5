@@ -1,6 +1,6 @@
 # c2qi8uiad3ickc1lnvu0 - the API Key for Apple stock from finnhub.io - found it just by googling, looks legit
 import requests
-from Attempt import Account
+from Account import Account
 from stocks import show_graph
 
 is_logged_in = False
