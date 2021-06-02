@@ -31,7 +31,7 @@ class Account:
         if not user:
             print('User not found')
             return False
-        user_password = getpass('What is your login password?\n')
+        user_password = getpass('What is your login password? Your password will not be visible\n')
 
         if user["password"] == user_password:
             return True
