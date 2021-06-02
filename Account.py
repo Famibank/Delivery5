@@ -24,6 +24,7 @@ class Account:
                 "bank_account_number": bank_account_number,
                 "balance": balance}
         collection.insert_one(user) #Inserts user in MongoDB.
+        print("You are now registered. To continue, please log in ")
 
     def login(self):
         login_name = input('What is your login CPR?\n') #Promts for the already created login_name(CPR).
