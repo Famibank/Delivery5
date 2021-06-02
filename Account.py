@@ -17,10 +17,12 @@ class Account:
         password_db = getpass(prompt="Password?\n") # fix password, only allows int
         full_name = pyip.inputStr(prompt="Full Name?\n", blank=True)
         bank_account_number = random.randint(1000000, 99999999)  # need to make so user gets assigned one after registering
+        balance = random.rand
         user = {"CPR": cpr,
                 "password": password_db,
                 "full_name": full_name,
-                "bank_account_number": bank_account_number} # can add more things like balance, email, gender. phone nr, remember to dd variables asking for them
+                "bank_account_number": bank_account_number
+                "balance": balance} # can add more things like balance, email, gender. phone nr, remember to dd variables asking for them
         collection.insert_one(user)
 
     def login(self):
