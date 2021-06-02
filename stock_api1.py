@@ -19,7 +19,7 @@ while is_logged_in == False:
                     break
                 #make it so it doesnt stop program.
 
-        else: print("Incorrect password.")
+        else: print("Incorrect password and/or CPR.")
     elif answer == '2':
         Account().register()
     else:
