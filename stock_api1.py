@@ -24,6 +24,3 @@ while is_logged_in == False:
         Account().register()
     else:
         print('Input not recognized')
-
-#database.Hi()
-#Person().greet() first is class, then function
