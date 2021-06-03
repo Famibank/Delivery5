@@ -17,10 +17,10 @@ def show_graph():
     year, month, day = map(int, date2.split('-'))
     end = dt.datetime(year, month, day)
 
-    data = web.DataReader(company, 'yahoo', start, end) # We download the data from Yahoo Finance API
+    data = web.DataReader(company, 'yahoo', start, end) # We retrieve the data from Yahoo Finance API.
 
     plt.plot(data['Close']) #Starts the plot with the closing price of each day for the selected time period.
     plt.ylabel(f'{company} Stock price ($)') #Names the y axis according to which stock was chosen.
     plt.xlabel('Date (YYYY,MM,DD)') #Name of the x axis.
-    plt.xticks(rotation=70, ha='right') #Rotates the ticks on the x axis for better view
+    plt.xticks(rotation=70, ha='right') #Rotates the ticks on the x axis for better view.
     plt.show() #Displays the plot.
