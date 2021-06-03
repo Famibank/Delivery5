@@ -1,1 +1,4 @@
-We can register multiple users with the same CPR, PASSWORD and FULL NAME.
+
+The current version of the product presents the following bug:
+
+- multiple users can register with the same CPR, PASSWORD and FULL NAME.
