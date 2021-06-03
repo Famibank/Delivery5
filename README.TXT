@@ -10,4 +10,4 @@ python FamiBank.py
 
 Navigate using the instructions displayed on the terminal.
 
-
+If you wish to see the database, you will have to download MongoDB Compass and paste in the connection string (mongodb+srv://admin:admin@cluster0.diqaz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority) that can be found in Account.py 8th line. After the connection has been pasted in, it will allow to access the test-database.test-collection where the information on FamiBank users is stored.
