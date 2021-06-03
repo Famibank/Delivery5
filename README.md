@@ -1,6 +1,6 @@
 # Delivery 5
 
-Say that python needs to be installed
+Say that Python needs to be installed in your computer.
 
 To run our FamiBank program open the Delivery5 folder in your terminal and install the modules
 pip install -r requirements.txt
