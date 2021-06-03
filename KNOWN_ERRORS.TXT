@@ -1,1 +1,1 @@
-.
+We can register multiple users with the same CPR, PASSWORD and FULL NAME.
